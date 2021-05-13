@@ -16,4 +16,8 @@ typedef struct {
     Circle** array;
 } FigureSet;
 
+double get_circle_perimeter(Circle* circle);
+
+double get_circle_area(Circle* circle);
+
 FigureSet scan_file(const char* path);
